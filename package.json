@@ -106,7 +106,7 @@
     "lodash.clonedeep": "^4.5.0",
     "nightwatch": "^1.0.18",
     "node-sass": "^4.11.0",
-    "nyc": "^13.1.0",
+    "nyc": "^14.0.0",
     "sass-loader": "^7.1.0",
     "stylelint": "^9.9.0",
     "stylelint-config-recommended-scss": "^3.2.0",
