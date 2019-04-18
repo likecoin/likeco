@@ -110,7 +110,7 @@
     "sass-loader": "^7.1.0",
     "stylelint": "^9.9.0",
     "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-order": "^2.0.0",
+    "stylelint-order": "^3.0.0",
     "stylelint-scss": "^3.4.4",
     "webpack": "^4.20.2"
   }
