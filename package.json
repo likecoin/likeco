@@ -93,7 +93,7 @@
     "@babel/preset-env": "^7.3.4",
     "@babel/register": "^7.0.0",
     "@sentry/webpack-plugin": "^1.5.2",
-    "ava": "^1.0.1",
+    "ava": "^2.0.0",
     "axiosist": "^0.1.0",
     "babel-eslint": "^10.0.1",
     "backpack-core": "^0.8.3",
