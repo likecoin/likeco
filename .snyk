@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2019-09-30T01:22:48.701Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/types > lodash:
+        patched: '2019-09-30T01:22:48.701Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2019-09-30T01:22:48.701Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/plugin-proposal-decorators > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-09-30T01:22:48.701Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-09-30T01:22:48.701Z'
