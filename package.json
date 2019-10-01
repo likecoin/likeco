@@ -51,7 +51,7 @@
     "@nuxtjs/sentry": "^3.0.0",
     "axios": "^0.18.0",
     "bignumber.js": "^7.2.1",
-    "bn.js": "^4.11.8",
+    "bn.js": "^5.0.0",
     "classlist-polyfill": "^1.2.0",
     "compression": "^1.7.3",
     "cookie-parser": "^1.4.3",
