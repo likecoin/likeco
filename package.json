@@ -58,7 +58,7 @@
     "core-js": "^2.5.5",
     "cross-env": "^5.1.4",
     "csurf": "^1.9.0",
-    "date-fns": "^1.29.0",
+    "date-fns": "^2.0.0",
     "disposable-email-domains": "^1.0.39",
     "express": "^4.17.0",
     "firebase": "^5.8.2",
