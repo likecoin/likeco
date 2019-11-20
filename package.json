@@ -111,7 +111,7 @@
     "nightwatch": "^1.1.13",
     "node-sass": "^4.11.0",
     "nyc": "^13.1.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^8.0.0",
     "stylelint": "^9.9.0",
     "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-order": "^2.0.0",
