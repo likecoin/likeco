@@ -1,0 +1,93 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - authcore-js > web3-provider-engine > request > extend:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > request > extend:
+        patched: '2019-12-02T04:33:14.436Z'
+  SNYK-JS-LODASH-450202:
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > ethereumjs-vm > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > ethereumjs-vm > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > json-rpc-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-block-tracker > json-rpc-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/preset-env > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > json-rpc-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > json-rpc-engine > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-vm > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-vm > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-vm > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-vm > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - authcore-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - nuxt > @nuxt/webpack > @nuxt/babel-preset-app > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
+    - secretd-js > web3-provider-engine > eth-json-rpc-infura > eth-json-rpc-middleware > eth-tx-summary > async > lodash:
+        patched: '2019-12-02T04:33:14.436Z'
