@@ -23,7 +23,7 @@
     "lint": "npm run lint:es && npm run lint:style",
     "lint:es": "eslint --ext .js,.vue .",
     "lint:style": "stylelint -i .gitignore '**/*.{scss,vue}'",
-    "prepare": "cd node_modules/web3-core-requestmanager/src && sed -i.bak \"/var global = Function('return this')();/d\" givenProvider.js && rm givenProvider.js.bak",
+    "prepare": "npm run snyk-protect && cd node_modules/web3-core-requestmanager/src && sed -i.bak \"/var global = Function('return this')();/d\" givenProvider.js && rm givenProvider.js.bak",
     "test": "npm run dev:docker:api:test && CI=true npm run build:testnet && IS_STANDALONE_TEST=TRUE CI=true IS_TESTNET=TRUE npm run test:e2e; npm run dev:docker:api:test:stop",
     "test:nuxt": "ava -v test/nuxt/nuxt.test.js",
     "test:e2e": "./node_modules/.bin/nightwatch --config test/e2e/nightwatch.conf.js",
@@ -31,7 +31,8 @@
     "test:e2e:tx": "./node_modules/.bin/nightwatch -c test/e2e/nightwatch.conf.js -g tx.js",
     "test:e2e:user": "./node_modules/.bin/nightwatch -c test/e2e/nightwatch.conf.js -g user.js",
     "test:e2e:mission": "./node_modules/.bin/nightwatch -c test/e2e/nightwatch.conf.js -g mission.js",
-    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "snyk-protect": "snyk protect"
   },
   "ava": {
     "require": [
@@ -92,7 +93,8 @@
     "vue-vimeo-player": "0.0.9",
     "vuedraggable": "^2.18.1",
     "vuex": "^3.1.0",
-    "web3": "^1.0.0-beta.34"
+    "web3": "^1.0.0-beta.34",
+    "snyk": "^1.254.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.3.4",
@@ -120,5 +122,6 @@
     "stylelint-order": "^2.0.0",
     "stylelint-scss": "^3.4.4",
     "webpack": "^4.20.2"
-  }
+  },
+  "snyk": true
 }
