@@ -60,7 +60,7 @@
     "express": "^4.17.0",
     "gsap": "^3.0.4",
     "helmet": "^3.21.2",
-    "http-proxy-middleware": "^0.20.0",
+    "http-proxy-middleware": "^0.21.0",
     "image-type": "^3.0.0",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
