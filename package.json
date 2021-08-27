@@ -77,7 +77,7 @@
     "swiper": "^4.5.0",
     "tiny-cookie": "^2.3.1",
     "url-parse": "^1.4.3",
-    "uuid": "^3.2.1",
+    "uuid": "^7.0.0",
     "vue-clipboard2": "^0.2.1",
     "vue-cookie": "^1.1.4",
     "vue-i18n": "^8.0.0",
