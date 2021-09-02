@@ -76,7 +76,7 @@
     "source-map-support": "^0.5.4",
     "swiper": "^4.5.0",
     "tiny-cookie": "^2.3.1",
-    "url-parse": "^1.4.3",
+    "url-parse": "^1.5.2",
     "uuid": "^3.2.1",
     "vue-clipboard2": "^0.2.1",
     "vue-cookie": "^1.1.4",
